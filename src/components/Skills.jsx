@@ -4,28 +4,28 @@ const skills = [
       name: "Front-end Development",
       description:
         "Front-end development involves designing and coding the user interface of a website or application to create a visually appealing and interactive experience for users.",
-        image: "src/assets/skills-1.png",
+        image: "src/assets/skills-1.jpg",
     },
     {
       id: 2,
       name: "Back-end Development",
       description:
         "Back-end development involves creating and maintaining the server-side of a software application, handling data storage, processing, and server-to-client communication.",
-      image: "src/assets/skills-2.png",
+      image: "src/assets/skills-2.jpg",
     },
     {
       id: 4,
       name: "Web Development",
       description:
         "Web development involves building and maintaining websites or web applications by writing code, including HTML, CSS, and JavaScript, to ensure they function correctly and provide a seamless user experience.",
-      image: "src/assets/skills-4.png",
+      image: "src/assets/skills-4.jpg",
     },
     {
       id: 3,
       name: "Web Design",
       description:
         "Web design refers to the process of planning and creating the visual and user interface elements of a website, including layout, colors, typography, and graphics, to enhance its aesthetics and user experience.",
-      image: "/src/assets/skills-3.png",
+      image: "/src/assets/skills-3.jpg",
     },
   ];
 

@@ -1,71 +1,42 @@
 /* eslint-disable react/no-unescaped-entities */
-
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-
-const reviews = [
-    {
-        id: 1, name: "Dianne Russell", company: "Starbucks", comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.", photo: "/src/assets/Avatar1.png"
-    },
-    {
-        id: 2, name: "Kristin Watson", company: "Louis Vuitton", comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.", photo: "/src/assets/Avatar2.png"
-    },
-    {
-        id: 3, name: "Kathryn Murphy", company: "McDonald's", comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.", photo: "/src/assets/Avatar3.png"
-    },
-    {
-        id: 4, name: "Dianne Russell", company: "Starbucks", comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.", photo: "/src/assets/Avatar1.png"
-    },
-    {
-        id: 5, name: "Kristin Watson", company: "Louis Vuitton", comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.", photo: "/src/assets/Avatar2.png"
-    },
-    {
-        id: 6, name: "Kathryn Murphy", company: "McDonald's", comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.", photo: "/src/assets/Avatar3.png"
-    },
-]
-
 const ReviewCard = () => {
     return (
         <>
-            <Swiper
-        slidesPerView={1}
-        spaceBetween={10}
-        breakpoints={{
-          640: {
-            slidesPerView: 1,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 2,
-            spaceBetween: 40,
-          },
-          1024: {
-            slidesPerView: 3,
-            spaceBetween: 50,
-          },
-        }}
-        className="mySwiper -z-0"
-      >
-        {
-            reviews.map(review => <SwiperSlide key={review.id} className='border border-[#006B6A] p-8 rounded'>
-                    <div>
+         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 border border-[#a8cdcd] p-8 rounded'>
+                    <div className="shadow-xl rounded-lg" >
                         <img src="/src/assets/starts.png" alt=""  className='h-4'/>
-                        <p className='my-5'>" {review.comment}</p>
+                        <p className='my-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit illo tenetur facere laboriosam quo? Deleniti quia cum fugit quisquam amet possimus tenetur officia temporibus aut? Harum animi aut facilis amet!</p>
                         <div className='flex gap-4 items-center'>
-                            <img src={review.photo} alt="" className='h-10' />
+                            <img src="/src/assets/Avatar1.jpg" alt="" className='h-10' />
                             <div>
-                                <p>{review.name}</p>
-                                <p className='text-sm'>{review.company}</p>
+                                <p>Dianne Russell</p>
+                                <p className='text-sm'>Starbucks</p>
                             </div>
                         </div>
                     </div>
-            </SwiperSlide>)
-        }
-      </Swiper>
+                    <div className="shadow-xl rounded-lg" >
+                        <img src="/src/assets/starts.png" alt=""  className='h-4'/>
+                        <p className='my-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit illo tenetur facere laboriosam quo? Deleniti quia cum fugit quisquam amet possimus tenetur officia temporibus aut? Harum animi aut facilis amet!</p>
+                        <div className='flex gap-4 items-center'>
+                            <img src="/src/assets/Avatar2.jpg" alt="" className='h-10' />
+                            <div>
+                                <p>Kristin Watson</p>
+                                <p className='text-sm'>Starbucks</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="shadow-xl rounded-lg">
+                        <img src="/src/assets/starts.png" alt=""  className='h-4'/>
+                        <p className='my-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit illo tenetur facere laboriosam quo? Deleniti quia cum fugit quisquam amet possimus tenetur officia temporibus aut? Harum animi aut facilis amet!</p>
+                        <div className='flex gap-4 items-center'>
+                            <img src="/src/assets/Avatar3.jpg" alt="" className='h-10' />
+                            <div>
+                                <p>Kathryn Murphy</p>
+                                <p className='text-sm'>McDonald's</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
         </>
     );
 };
