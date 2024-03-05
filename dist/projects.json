@@ -1,12 +1,12 @@
 [
     {
-        "id" : 1, "name" : "Easy Bikes", "description" : "The Bike Sell and Buy Web App is an online marketplace that connects buyers and sellers of bikes.The platform is designed to provide a user-friendly interface.", "image": "/src/assets/easybike.png", "link": "https://github.com/zaidkazi3008/easybikes"
+        "id" : 1, "name" : "Easy Bikes", "description" : "The Bike Sell and Buy Web App is an online marketplace that connects buyers and sellers of bikes.The platform is designed to provide a user-friendly interface.", "image":"/src/assets/easybike.jpg", "link": "https://github.com/zaidkazi3008/easybikes"
     },
     {
-        "id" : 2, "name" : "My-portfolio", "description" : "This is about my personal portfolio website. in this particular project i used React Js, TailwindCss,and some useful frontend libraries. To showcase this skills i made this project.", "image": "/src/assets/my-port.png", "link": "https://github.com/zaidkazi3008/my-portfolio-website"
+        "id" : 2, "name" : "My-portfolio", "description" : "This is about my personal portfolio website. in this particular project i used React Js, TailwindCss,and some useful frontend libraries. To showcase this skills i made this project.","image":"/src/assets/my-port.jpg", "link": "https://github.com/zaidkazi3008/my-portfolio-website"
     },
     {
-        "id" : 3, "name" : "coming soon", "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.", "image": "/src/assets/project-3.png"
+        "id" : 3, "name" : "coming soon", "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.", "image":"/src/assets/project-3.jpg"
     }
 ]
 
