@@ -1,4 +1,9 @@
 /* eslint-disable react/no-unknown-property */
+import EasyBikes from "../assets/easybike.jpg"
+import Port from "../assets/my-port.jpg"
+import Project3 from "../assets/project-3.jpg"
+
+
 const Portfolio = () => {
 
   return (
@@ -22,7 +27,7 @@ const Portfolio = () => {
       {/* project card */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
          <div className="shadow-xl rounded-lg">
-              <img src="/src/assets/easybike.jpg" alt="" />
+              <img src={EasyBikes} alt="" />
               <div className="p-8">
                 <h3 className="text-2xl font-semibold mb-2 text-headingcolor">EasyBikes</h3>
                 <p className="text-body mb-4">The Bike Sell and Buy Web App is an online marketplace that connects buyers and sellers of bikes.The platform is designed to provide a user-friendly interface.</p>
@@ -30,7 +35,7 @@ const Portfolio = () => {
               </div>
           </div>
           <div className="shadow-xl rounded-lg">
-              <img src="/src/assets/my-port.jpg" alt="" />
+              <img src={Port} alt="" />
               <div className="p-8">
                 <h3 className="text-2xl font-semibold mb-2 text-headingcolor">My-portfolio</h3>
                 <p className="text-body mb-4"> This is about my personal portfolio website. in this particular project i used React Js, TailwindCss,and some useful frontend libraries. To showcase this skills i made this project.</p>
@@ -38,7 +43,7 @@ const Portfolio = () => {
               </div>
           </div>
           <div className="shadow-xl rounded-lg">
-              <img src="/src/assets/project-3.jpg" alt="" />
+              <img src={Project3} alt="" />
               <div className="p-8">
                 <h3 className="text-2xl font-semibold mb-2 text-headingcolor">Coming Soon</h3>
                 <p className="text-body mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel a asperiores cum nulla ad odit maiores, amet est corporis, vero optio voluptates nemo distinctio deserunt, possimus laborum. Iusto, amet ea.</p>
