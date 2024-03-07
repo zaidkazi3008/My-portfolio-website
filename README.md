@@ -1,6 +1,6 @@
 # personal-portfolio-website
 
-![react portfolio website](/src/assets/my-port.png)
+![react portfolio website](/src/assets/my-port.jpg)
 
 ## Installation
 
